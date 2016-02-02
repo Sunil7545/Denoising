@@ -1,0 +1,14 @@
+﻿Build started 02.02.2016 16:22:37.
+     1>Project "T:\Dokumente\Visual Studio 2013\Projects\projects\testOpenCv\testOpenCv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\yadavsk\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt smoothAnisoDiff.cpp
+         smoothAnisoDiff.cpp
+     1>t:\dokumente\visual studio 2013\projects\projects\testopencv\smoothanisodiff.cpp(194): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"T:\Dokumente\Visual Studio 2013\Projects\projects\Debug\testOpenCv.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\yadavsk\opencv\install\lib\Debug opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"T:\Dokumente\Visual Studio 2013\Projects\projects\Debug\testOpenCv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"T:\Dokumente\Visual Studio 2013\Projects\projects\Debug\testOpenCv.lib" /MACHINE:X86 Debug\smoothAnisoDiff.obj
+         testOpenCv.vcxproj -> T:\Dokumente\Visual Studio 2013\Projects\projects\Debug\testOpenCv.exe
+     1>Done Building Project "T:\Dokumente\Visual Studio 2013\Projects\projects\testOpenCv\testOpenCv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20
